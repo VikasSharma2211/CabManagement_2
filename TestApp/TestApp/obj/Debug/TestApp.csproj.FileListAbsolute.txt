@@ -1,0 +1,5 @@
+C:\myprojects\mydotnetproject\TestApp\TestApp\bin\Debug\TestApp.exe.config
+C:\myprojects\mydotnetproject\TestApp\TestApp\bin\Debug\TestApp.exe
+C:\myprojects\mydotnetproject\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\myprojects\mydotnetproject\TestApp\TestApp\obj\Debug\TestApp.exe
+C:\myprojects\mydotnetproject\TestApp\TestApp\obj\Debug\TestApp.pdb
