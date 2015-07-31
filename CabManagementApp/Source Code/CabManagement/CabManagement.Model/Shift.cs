@@ -8,6 +8,8 @@ namespace Infosys.CabManagement.Model
 {
     public class Shift
     {
+
+        //Added few comments to it
         public Int32 ShiftId { get; set; }
         public string ShiftType { get; set; }
         public string ShiftCategory { get; set; }
