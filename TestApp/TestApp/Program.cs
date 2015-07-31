@@ -25,6 +25,7 @@ namespace TestApp
             Console.WriteLine("Changes Thursday second change at 11:40 AM with Vikas");
             Console.WriteLine("Changes Thursday second change at 12:21 pm with Yogesh");
             Console.WriteLine("Changes Thursday second change at 12:44 pm with Yogesh");
+            Console.WriteLine("Changes Thursday second change at 10:45 AM with Robin");
             Console.ReadLine();
         }
     }
