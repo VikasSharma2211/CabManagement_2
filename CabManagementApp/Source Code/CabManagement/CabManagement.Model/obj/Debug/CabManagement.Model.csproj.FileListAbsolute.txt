@@ -1,0 +1,5 @@
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\bin\Debug\CabManagement.Model.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\bin\Debug\CabManagement.Model.pdb
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.csprojResolveAssemblyReference.cache
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.pdb

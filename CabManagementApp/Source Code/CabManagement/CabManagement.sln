@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabManagement.UI", "CabManagement\CabManagement.UI.csproj", "{8221489B-768A-4D9C-B9D2-6207E1856790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabManagement.Business", "CabManagementBusiness\CabManagement.Business.csproj", "{D3FF119D-BE51-4FD0-9ACF-BDD1AE147D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabManagement.Model", "CabManagement.Model\CabManagement.Model.csproj", "{5FB457E9-BC26-409B-9094-3EC7DAB149E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabManagement.Repository", "CabManagement.Repository\CabManagement.Repository.csproj", "{B7C1DAA8-18E5-42CB-960F-9ACC9C9D7126}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs2013-farm01.ad.infosys.com:8080/tfs/farm01-tpc027
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CabManagement\\CabManagement.UI.csproj
+		SccProjectName1 = CabManagement
+		SccLocalPath1 = CabManagement
+		SccProjectUniqueName2 = CabManagement.Model\\CabManagement.Model.csproj
+		SccProjectName2 = CabManagement.Model
+		SccLocalPath2 = CabManagement.Model
+		SccProjectUniqueName3 = CabManagementBusiness\\CabManagement.Business.csproj
+		SccProjectName3 = CabManagementBusiness
+		SccLocalPath3 = CabManagementBusiness
+		SccProjectUniqueName4 = CabManagement.Repository\\CabManagement.Repository.csproj
+		SccProjectName4 = CabManagement.Repository
+		SccLocalPath4 = CabManagement.Repository
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8221489B-768A-4D9C-B9D2-6207E1856790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8221489B-768A-4D9C-B9D2-6207E1856790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8221489B-768A-4D9C-B9D2-6207E1856790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8221489B-768A-4D9C-B9D2-6207E1856790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FF119D-BE51-4FD0-9ACF-BDD1AE147D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FF119D-BE51-4FD0-9ACF-BDD1AE147D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FF119D-BE51-4FD0-9ACF-BDD1AE147D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FF119D-BE51-4FD0-9ACF-BDD1AE147D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB457E9-BC26-409B-9094-3EC7DAB149E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB457E9-BC26-409B-9094-3EC7DAB149E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB457E9-BC26-409B-9094-3EC7DAB149E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB457E9-BC26-409B-9094-3EC7DAB149E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C1DAA8-18E5-42CB-960F-9ACC9C9D7126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C1DAA8-18E5-42CB-960F-9ACC9C9D7126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C1DAA8-18E5-42CB-960F-9ACC9C9D7126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C1DAA8-18E5-42CB-960F-9ACC9C9D7126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Repository.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Repository.pdb
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Model.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Model.pdb
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.csprojResolveAssemblyReference.cache
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.pdb

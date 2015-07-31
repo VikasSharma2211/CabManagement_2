@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8221489B-768A-4D9C-B9D2-6207E1856790}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infosys.CabManagement.UI</RootNamespace>
+    <AssemblyName>Infosys.CabManagement.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Common References\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\BillingManagement.aspx" />
+    <Content Include="Admin\CabManagement.aspx" />
+    <Content Include="Admin\DCManagement.aspx" />
+    <Content Include="Admin\DriverDetails.aspx" />
+    <Content Include="Admin\PenaltyFine.aspx" />
+    <Content Include="Admin\RoosterManagement.aspx" />
+    <Content Include="Admin\Route.aspx" />
+    <Content Include="Admin\ShiftManagement.aspx" />
+    <Content Include="Common References\itextsharp.dll" />
+    <Content Include="CSS\datatable\dataTables.tableTools.css" />
+    <Content Include="CSS\datatable\dataTables.tableTools.min.css" />
+    <Content Include="CSS\demo.css" />
+    <Content Include="CSS\jquery-ui.css" />
+    <Content Include="CSS\jquery.dataTables.css" />
+    <Content Include="CSS\navbar.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\uploadfile.css" />
+    <Content Include="CSS\validationEngine.jquery.css" />
+    <Content Include="Error.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\active_bulb.jpg" />
+    <Content Include="Images\arrowtop.png" />
+    <Content Include="Images\bg-tile.png" />
+    <Content Include="Images\cab.jpg" />
+    <Content Include="Images\Cancelled_bulb.jpg" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\cross.png" />
+    <Content Include="Images\DataTable\back_disabled.png" />
+    <Content Include="Images\DataTable\back_enabled.png" />
+    <Content Include="Images\DataTable\back_enabled_hover.png" />
+    <Content Include="Images\DataTable\favicon.ico" />
+    <Content Include="Images\DataTable\forward_disabled.png" />
+    <Content Include="Images\DataTable\forward_enabled.png" />
+    <Content Include="Images\DataTable\forward_enabled_hover.png" />
+    <Content Include="Images\DataTable\sort_asc.png" />
+    <Content Include="Images\DataTable\sort_asc_disabled.png" />
+    <Content Include="Images\DataTable\sort_both.png" />
+    <Content Include="Images\DataTable\sort_desc.png" />
+    <Content Include="Images\DataTable\sort_desc_disabled.png" />
+    <Content Include="Images\drop-down.png" />
+    <Content Include="Images\Inactive_bulb.jpg" />
+    <Content Include="Images\loading.png" />
+    <Content Include="Images\navigation-sprite.png" />
+    <Content Include="Images\pageloader.gif" />
+    <Content Include="Images\Rejected_Bulb.jpg" />
+    <Content Include="Images\true.png" />
+    <Content Include="Media\swf\copy_csv_xls.swf" />
+    <Content Include="Media\swf\copy_csv_xls_pdf.swf" />
+    <Content Include="OnDemandRequest.aspx" />
+    <Content Include="Reports\CabStatusReport.aspx" />
+    <Content Include="Reports\DataEntryReport.aspx" />
+    <Content Include="Reports\OnlineReports.aspx" />
+    <Content Include="Reports\PenaltyReport.aspx" />
+    <Content Include="Reports\PerformanceReport.aspx" />
+    <Content Include="Reports\RosterStatusReport.aspx" />
+    <Content Include="Reports\UtilizationReport.aspx" />
+    <Content Include="Roles\ManageRole.aspx" />
+    <Content Include="Scripts\CabManagementScript\CabManagement.js" />
+    <Content Include="Scripts\CabManagementScript\RoosterManagement.js" />
+    <Content Include="Scripts\DataTable\dataTables.tableTools.js" />
+    <Content Include="Scripts\DataTable\dataTables.tableTools.min.js" />
+    <Content Include="Scripts\DataTable\jquery.dataTables.js" />
+    <Content Include="Scripts\DatePicker\jquery-ui.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\jquery.fileupload.js" />
+    <Content Include="Scripts\jquery.iframe-transport.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.ui.js" />
+    <Content Include="Scripts\jquery.uploadfile.js" />
+    <Content Include="Scripts\jquery.uploadify.js" />
+    <Content Include="Scripts\jquery.validationEngine-en.js" />
+    <Content Include="Scripts\jquery.validationEngine.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Admin\VendorManagement.aspx" />
+    <Content Include="Admin\PropertyManagement.aspx" />
+    <Content Include="OnDemandApproval.aspx" />
+    <Content Include="MyRequests.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\BillingManagement.aspx.cs">
+      <DependentUpon>BillingManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BillingManagement.aspx.designer.cs">
+      <DependentUpon>BillingManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CabManagement.aspx.cs">
+      <DependentUpon>CabManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CabManagement.aspx.designer.cs">
+      <DependentUpon>CabManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DCManagement.aspx.cs">
+      <DependentUpon>DCManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DCManagement.aspx.designer.cs">
+      <DependentUpon>DCManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DriverDetails.aspx.cs">
+      <DependentUpon>DriverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DriverDetails.aspx.designer.cs">
+      <DependentUpon>DriverDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PenaltyFine.aspx.cs">
+      <DependentUpon>PenaltyFine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PenaltyFine.aspx.designer.cs">
+      <DependentUpon>PenaltyFine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\RoosterManagement.aspx.cs">
+      <DependentUpon>RoosterManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\RoosterManagement.aspx.designer.cs">
+      <DependentUpon>RoosterManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Route.aspx.cs">
+      <DependentUpon>Route.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Route.aspx.designer.cs">
+      <DependentUpon>Route.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ShiftManagement.aspx.cs">
+      <DependentUpon>ShiftManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ShiftManagement.aspx.designer.cs">
+      <DependentUpon>ShiftManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Common.cs" />
+    <Compile Include="Admin\PropertyManagement.aspx.cs">
+      <DependentUpon>PropertyManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PropertyManagement.aspx.designer.cs">
+      <DependentUpon>PropertyManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyRequests.aspx.cs">
+      <DependentUpon>MyRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyRequests.aspx.designer.cs">
+      <DependentUpon>MyRequests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnDemandRequest.aspx.cs">
+      <DependentUpon>OnDemandRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnDemandRequest.aspx.designer.cs">
+      <DependentUpon>OnDemandRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CabStatusReport.aspx.cs">
+      <DependentUpon>CabStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\CabStatusReport.aspx.designer.cs">
+      <DependentUpon>CabStatusReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DataEntryReport.aspx.cs">
+      <DependentUpon>DataEntryReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\DataEntryReport.aspx.designer.cs">
+      <DependentUpon>DataEntryReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\OnlineReports.aspx.cs">
+      <DependentUpon>OnlineReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\OnlineReports.aspx.designer.cs">
+      <DependentUpon>OnlineReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PenaltyReport.aspx.cs">
+      <DependentUpon>PenaltyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\PenaltyReport.aspx.designer.cs">
+      <DependentUpon>PenaltyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PerformanceReport.aspx.cs">
+      <DependentUpon>PerformanceReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\PerformanceReport.aspx.designer.cs">
+      <DependentUpon>PerformanceReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RosterStatusReport.aspx.cs">
+      <DependentUpon>RosterStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\RosterStatusReport.aspx.designer.cs">
+      <DependentUpon>RosterStatusReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\UtilizationReport.aspx.cs">
+      <DependentUpon>UtilizationReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\UtilizationReport.aspx.designer.cs">
+      <DependentUpon>UtilizationReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload.ashx.cs">
+      <DependentUpon>Upload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OnDemandApproval.aspx.cs">
+      <DependentUpon>OnDemandApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnDemandApproval.aspx.designer.cs">
+      <DependentUpon>OnDemandApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Utility.cs" />
+    <Content Include="App_Code\Logg.cs" />
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Admin\VendorManagement.aspx.cs">
+      <DependentUpon>VendorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\VendorManagement.aspx.designer.cs">
+      <DependentUpon>VendorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Roles\ManageRole.aspx.cs">
+      <DependentUpon>ManageRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Roles\ManageRole.aspx.designer.cs">
+      <DependentUpon>ManageRole.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="Images\DataTable\Sorting icons.psd" />
+    <Content Include="Upload.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CabManagement.Model\CabManagement.Model.csproj">
+      <Project>{5fb457e9-bc26-409b-9094-3ec7dab149e4}</Project>
+      <Name>CabManagement.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CabManagementBusiness\CabManagement.Business.csproj">
+      <Project>{d3ff119d-be51-4fd0-9acf-bdd1ae147d03}</Project>
+      <Name>CabManagement.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Error\" />
+    <Folder Include="Home\" />
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>42040</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:42034/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

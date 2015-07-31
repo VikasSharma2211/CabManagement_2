@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Infosys.CabManagement.UI.MasterPage" %>
+
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/demo.css" rel="stylesheet" />
+    <link href="CSS/navbar.css" rel="stylesheet" />
+     <script src="../Scripts/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript">
+      window.onresize = resize;
+
+      function resize()
+      {
+          
+          if (window.innerWidth < 999) {
+              document.getElementById("body1").style.overflowX = 'visible';
+              document.getElementById("body1").style.width = screen.width + 'px';
+             // document.getElementById("Label1").textContent = screen.width;
+          }
+          else {
+              document.getElementById("body1").style.overflowX = 'hidden';
+              // document.getElementById("tblLstrosterunmapped").style.width = window.innerWidth + 'px';
+              document.getElementById("body1").style.width = window.innerWidth + 'px';
+         //   document.getElementById("Label1").textContent = window.innerWidth;
+
+          }
+
+      }
+      
+      
+
+      $(document).ready(function () {
+          // Requried: Navigation bar drop-down
+          $("nav ul li").hover(function () {
+              $(this).addClass("active");
+              $(this).find("ul").show().animate({ opacity: 1 }, 400);
+          }, function () {
+              $(this).find("ul").hide().animate({ opacity: 0 }, 200);
+              $(this).removeClass("active");
+          });
+
+          // Requried: Addtional styling elements
+          $('nav ul li ul li:first-child').prepend('<li class="arrow"></li>');
+          $('nav ul li:first-child').addClass('first');
+          $('nav ul li:last-child').addClass('last');
+          $('nav ul li ul').parent().append('<span class="dropdown"></span>').addClass('drop');
+
+      });
+</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body id="body1">  
+   <%-- <body>--%>
+    <form id="form1" runat="server">
+       
+        <div class="wrapper" id="darkWrapper">
+	
+		<!-- BEGIN Dark navigation bar -->
+		<nav class="dark">
+			<ul class="clear">
+				<li style="width:23%;text-align:center"><a href="../Home.aspx" >Home</a></li>
+				
+				<li style="width:23%;text-align:center"><a href="../OnDemandRequest.aspx">OnDemand Request</a>
+                    <ul id="ul2" runat="server">                    
+						<li id="li1" runat="server" ><a href="../OnDemandApproval.aspx">Approve/Reject Requests</a></li>                        
+                        <li id="li2" runat="server" ><a href="../MyRequests.aspx">My Requests</a></li>
+                    </ul>
+
+                    
+				</li>
+				<li style="width:23%;text-align:center" id="liadmin" runat="server"><a href="#"> Admin</a>
+					<ul id="uladmin" runat="server">
+						<li id="liVendorManagement" runat="server" ><a href="../Admin/VendorManagement.aspx">Vendors</a></li>
+						<li id="lishiftmanagement" runat="server" ><a href="../Admin/ShiftManagement.aspx">Shifts</a></li>
+						<li id="liroutemaster" runat="server" ><a href="../Admin/Route.aspx">Routes</a></li>
+						<li id="licabmanagement" runat="server"><a href="../Admin/CabManagement.aspx">Cabs</a></li>
+                         <li id="liPropertyManagement" runat="server"><a href="../Admin/PropertyManagement.aspx">Cab Property </a></li>
+                        <li id="lirolemanagement" runat="server"><a href="../Roles/ManageRole.aspx">Role Management</a></li>
+                         <li id="lidriverdetail" runat="server"><a href="../Admin/DriverDetails.aspx">Driver Detail</a></li>
+                         <li id="liroasterManagement" runat="server"><a href="../Admin/RoosterManagement.aspx">Rooster Management</a></li>
+                        <li id="lidcmanagement" runat="server"><a href="../Admin/DCManagement.aspx">DC Management</a></li>
+                        <li id="liPenaltyFine" runat="server"><a href="../Admin/PenaltyFine.aspx">Penalty/Fine</a></li>
+                        <li id="liBillingManagement" runat="server"><a href="../Admin/BillingManagement.aspx">Billing Management</a></li>
+					</ul>
+				</li>
+                <li style="width:23%;text-align:center" id="route"><a href="#">Reports</a>
+<ul id="ulreport" runat="server">
+					
+
+                    <li id="liCabStatusReport" runat="server" ><a href="../Reports/CabStatusReport.aspx">CabStatus Report</a></li>
+						<li id="liDataEntryReport" runat="server" ><a href="../Reports/DataEntryReport.aspx">DataEntry Report</a></li>
+						<li id="liOnlineReports" runat="server" ><a href="../Reports/OnlineReports.aspx">Online Reports</a></li>
+						<li id="liPerformanceReport" runat="server"><a href="../Reports/PerformanceReport.aspx">Performance Reports</a></li>
+                         <li id="liUtilizationReport" runat="server"><a href="../Reports/UtilizationReport.aspx">Utilization Reports </a></li>
+                        <li id="liPenaltyReport" runat="server"><a href="../Reports/PenaltyReport.aspx">Penalty Reports</a></li>
+                         <li id="liRosterStatusReport" runat="server"><a href="../Reports/RosterStatusReport.aspx">RosterStatus Reports</a></li>
+                         
+                        <li id="liNoShowReport" runat="server"><a href="../Reports/NoShowReport.aspx">NoShow Reports</a></li>
+                        <li id="liTravelHeadCountReport" runat="server"><a href="../Reports/TravelHeadCountReport.aspx">TravelHeadCount Report</a></li>
+      </ul>                 
+
+                </li>
+				
+				
+				<%--<li><a href="#">Contact us</a></li>--%>
+			</ul>
+		</nav>
+		<!-- END Dark navigation bar -->
+		
+	</div>
+
+    <div style="padding:15px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+         
+    </form>
+    
+</body>
+</html>

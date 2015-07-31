@@ -1,0 +1,12 @@
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagementBusiness.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagementBusiness.pdb
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Model.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Repository.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Model.pdb
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Repository.pdb
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagement.Business.csprojResolveAssemblyReference.cache
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\Interop.MSDAOSP.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\Interop.MSDASC.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagement.Business.csproj.ResolveComReference.cache
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagementBusiness.dll
+D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagementBusiness.pdb
