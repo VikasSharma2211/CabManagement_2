@@ -10,3 +10,15 @@ D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug
 D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagement.Business.csproj.ResolveComReference.cache
 D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagementBusiness.dll
 D:\CabManagementFolder\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagementBusiness.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagementBusiness.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagementBusiness.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Model.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Repository.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Model.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\bin\Debug\CabManagement.Repository.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagement.Business.csprojResolveAssemblyReference.cache
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\obj\Debug\Interop.MSDAOSP.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\obj\Debug\Interop.MSDASC.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagement.Business.csproj.ResolveComReference.cache
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagementBusiness.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagementBusiness\obj\Debug\CabManagementBusiness.pdb

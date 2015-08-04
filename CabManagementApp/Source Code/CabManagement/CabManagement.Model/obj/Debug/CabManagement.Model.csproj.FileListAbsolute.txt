@@ -3,3 +3,7 @@ D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\bin\Debug\C
 D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.csprojResolveAssemblyReference.cache
 D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.dll
 D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Model\bin\Debug\CabManagement.Model.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Model\bin\Debug\CabManagement.Model.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Model\obj\Debug\CabManagement.Model.pdb

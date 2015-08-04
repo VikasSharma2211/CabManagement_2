@@ -5,3 +5,10 @@ D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\bin\De
 D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.csprojResolveAssemblyReference.cache
 D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.dll
 D:\CabManagementFolder\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Repository.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Repository.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Model.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\bin\Debug\CabManagement.Model.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.csprojResolveAssemblyReference.cache
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.dll
+D:\MyDotNetGitHubProject\CabManagement_2\CabManagementApp\Source Code\CabManagement\CabManagement.Repository\obj\Debug\CabManagement.Repository.pdb

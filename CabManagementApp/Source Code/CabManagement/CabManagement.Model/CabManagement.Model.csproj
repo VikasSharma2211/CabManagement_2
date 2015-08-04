@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdvanceCabPlan.cs" />
     <Compile Include="CabCapacity.cs" />
     <Compile Include="CabManagementt.cs" />
     <Compile Include="CabProperty.cs" />
