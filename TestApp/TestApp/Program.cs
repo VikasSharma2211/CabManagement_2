@@ -31,6 +31,10 @@ namespace TestApp
             Console.WriteLine("Changes Monday First change at 10:00 AM with Vikas");
 
             Console.WriteLine("Changes Monday Second change at 4:35 PM with Vikas");
+            SumLib.Sum s1 = new SumLib.Sum();
+            MinusLib.Minus m1 = new MinusLib.Minus();
+            Console.WriteLine("Sum of two value is :" + s1.Add(10, 34));
+            Console.WriteLine("Sum of two value is :" + m1.Subtract(23,20));
             Console.ReadLine();
         }
     }

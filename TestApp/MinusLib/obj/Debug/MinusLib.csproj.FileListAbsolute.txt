@@ -1,0 +1,4 @@
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\MinusLib\bin\Debug\MinusLib.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\MinusLib\bin\Debug\MinusLib.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\MinusLib\obj\Debug\MinusLib.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\MinusLib\obj\Debug\MinusLib.pdb

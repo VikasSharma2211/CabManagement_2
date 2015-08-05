@@ -6,3 +6,10 @@ C:\myprojects\mydotnetproject\TestApp\TestApp\obj\Debug\TestApp.pdb
 D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\TestApp.exe.config
 D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\obj\Debug\TestApp.exe
 D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\obj\Debug\TestApp.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\TestApp.exe
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\TestApp.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\MinusLib.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\SumLib.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\MinusLib.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\bin\Debug\SumLib.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
