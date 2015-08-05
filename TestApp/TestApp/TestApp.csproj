@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MinusLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MinusLib.1.0.0.0\lib\net451\MinusLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SumLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SumLib.1.0.0.0\lib\net451\SumLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,16 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MinusLib\MinusLib.csproj">
-      <Project>{886fd9a5-8b57-4aa4-9a6a-0a8217c87aac}</Project>
-      <Name>MinusLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SumLib\SumLib.csproj">
-      <Project>{b6ee83f6-fc6b-49fb-aa49-21a4ffc0f1b2}</Project>
-      <Name>SumLib</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
