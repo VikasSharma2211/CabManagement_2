@@ -35,6 +35,7 @@ namespace TestApp
             MinusLib.Minus m1 = new MinusLib.Minus();
             Console.WriteLine("Sum of two value is :" + s1.Add(10, 34));
             Console.WriteLine("Sum of two value is :" + m1.Subtract(23,20));
+            Console.WriteLine("Changes Thursday Second change at 5:55 PM with Vikas");
             Console.ReadLine();
         }
     }
