@@ -36,6 +36,7 @@ namespace TestApp
             Console.WriteLine("Sum of two value is :" + s1.Add(10, 34));
             Console.WriteLine("Sum of two value is :" + m1.Subtract(23,20));
             Console.WriteLine("Changes Thursday Second change at 5:55 PM with Vikas");
+            Console.WriteLine("Changes Friday First change at 4:00 PM with KWJ");
             Console.ReadLine();
         }
     }
