@@ -1,0 +1,9 @@
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\MinusLib.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\nunit.framework.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\MinusLib.pdb
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\nunit.framework.xml
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\obj\Debug\UnitTestProjectTestApp.csprojResolveAssemblyReference.cache
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\obj\Debug\UnitTestProjectTestApp.dll
+D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\obj\Debug\UnitTestProjectTestApp.pdb

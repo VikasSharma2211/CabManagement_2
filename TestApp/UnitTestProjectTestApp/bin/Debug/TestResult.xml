@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.nunit" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-08-10" time="22:54:52">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.6421" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.4\bin" machine-name="JAISU195174L" user="Vikas_Sharma34" user-domain="ITLINFOSYS" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.nunit" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.dll" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+    </results>
+  </test-suite>
+</test-results>
