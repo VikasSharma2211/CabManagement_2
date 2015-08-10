@@ -38,6 +38,7 @@ namespace TestApp
             Console.WriteLine("Changes Thursday Second change at 5:55 PM with Vikas");
             Console.WriteLine("Changes Friday First change at 4:00 PM with KWJ");
             Console.WriteLine("Changes Friday second change at 5:00 PM with Avishar");
+            Console.WriteLine("Changes Monday first change at 10:00 AM with Vikas");
             Console.ReadLine();
         }
     }
