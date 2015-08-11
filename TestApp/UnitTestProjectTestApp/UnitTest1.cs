@@ -5,15 +5,15 @@ using Assert = NUnit.Framework.Assert;
 
 namespace UnitTestProjectTestApp
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
+        [TestCase]
         public void TestMethod1()
         {
 
             MinusLib.Minus m1 = new MinusLib.Minus();
-            Assert.AreEqual(3.0,m1.Subtract(4,1),"It means Minus is not working as expected");            
+            Assert.AreEqual(1.0,m1.Subtract(4,1),"It means Minus is not working as expected");            
         }
     }
 }
