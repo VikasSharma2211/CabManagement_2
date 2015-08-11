@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
   <TopNode>[0-1000]D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.nunit</TopNode>
   <SelectedNode>[0-1001]D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.dll</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
