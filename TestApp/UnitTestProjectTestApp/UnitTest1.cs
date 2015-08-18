@@ -13,7 +13,7 @@ namespace UnitTestProjectTestApp
         {
 
             MinusLib.Minus m1 = new MinusLib.Minus();
-            Assert.AreEqual(1.0,m1.Subtract(4,1),"It means Minus is not working as expected");            
+            Assert.AreEqual(3.0,m1.Subtract(4,1),"It means Minus is not working as expected");            
         }
     }
 }
