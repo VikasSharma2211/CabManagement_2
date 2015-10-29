@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1000]D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.Test.dll</TopNode>
-  <SelectedNode>[0-1000]D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.Test.dll</SelectedNode>
+  <TopNode>[0-1003]D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.Test.dll</TopNode>
+  <SelectedNode>[0-1000]UnitTestProjectTestApp.UnitTest1</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
-  <Nodes />
+  <Nodes>
+    <Node UniqueName="[0-1003]D:\MyDotNetGitHubProject\CabManagement_2\TestApp\UnitTestProjectTestApp\bin\Debug\UnitTestProjectTestApp.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1004]UnitTestProjectTestApp" Expanded="true" />
+    <Node UniqueName="[0-1000]UnitTestProjectTestApp.UnitTest1" Expanded="true" />
+    <Node UniqueName="[0-1001]UnitTestProjectTestApp.UnitTest1.TestMethod1" Expanded="true" />
+  </Nodes>
 </VisualState>
