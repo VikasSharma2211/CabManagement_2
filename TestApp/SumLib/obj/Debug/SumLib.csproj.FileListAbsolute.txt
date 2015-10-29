@@ -2,4 +2,3 @@ D:\MyDotNetGitHubProject\CabManagement_2\TestApp\SumLib\bin\Debug\SumLib.dll
 D:\MyDotNetGitHubProject\CabManagement_2\TestApp\SumLib\bin\Debug\SumLib.pdb
 D:\MyDotNetGitHubProject\CabManagement_2\TestApp\SumLib\obj\Debug\SumLib.dll
 D:\MyDotNetGitHubProject\CabManagement_2\TestApp\SumLib\obj\Debug\SumLib.pdb
-D:\MyDotNetGitHubProject\CabManagement_2\TestApp\SumLib\obj\Debug\SumLib.csprojResolveAssemblyReference.cache
